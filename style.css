@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+/* header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* controls */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+}
+
+.controls button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* card */
+.outfit {
+  background: white;
+  border-radius: 14px;
+  padding: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+/* images row */
+.img-row {
+  display: flex;
+  gap: 8px;
+}
+
+/* each image */
+.img-box {
+  flex: 1;
+  height: 160px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.color-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-left: 5px;
+  background: #eee;
+}
+.img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* text */
+.outfit p {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* button */
+.outfit button {
+  margin-top: 8px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.weather {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
